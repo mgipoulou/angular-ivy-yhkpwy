@@ -1,0 +1,12 @@
+<h3>Shipping Prices</h3>
+
+<div>
+  <div class="shipping-item" *ngFor="let shipping of shippingCosts">
+    <span>
+      {{ shipping.type }}
+    </span>
+    <span>
+      {{ shipping.price }}
+    </span>
+  </div>
+</div>
